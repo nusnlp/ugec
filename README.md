@@ -12,6 +12,7 @@ The program is tested under pytorch 1.7.1, CUDA version 11.7
 ### Flan-T5-xxl
 1. Please store all the downloaded checkpoint and data for Flan-T5-xxl in this folder: en_flan_t5/llm_finetune
 2. Install the requirement.txt inside en_flan_t5 folder
+
 Train:
 ```
 bash train.sh
@@ -23,6 +24,7 @@ bash eval_gec.sh your/ckpt/name
 ### BART-base
 1. Please store all the downloaded checkpoint and data for BART-base in this folder: en_fairseq_train
 2. Install the requirement.txt inside en_fairseq_train folder
+
 Train:
 ```
 cd gec
@@ -35,6 +37,7 @@ bash new_generate.sh path/to/model/ckpt testing/input/path
 ## Chinese GEC
 1. Please store all the downloaded checkpoint and data for BART-base in this folder: chinese_bart_large
 2. Install the requirement.txt inside chinese_bart_large folder
+
 Train:
 ```
 cd gec
