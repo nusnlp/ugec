@@ -2,8 +2,6 @@
 
 > Hannan Cao, Liping Yuan, Yuchen Zhang, Hwee Tou Ng. Unsupervised Grammatical Error Correction Rivaling Supervised Methods. In EMNLP 2023. 
 
-The program is tested under pytorch 1.7.1, CUDA version 11.7 
-
 ## Training Data & Checkpoints
 [GEC training data](https://drive.google.com/drive/folders/1c1xNjD7ORGaY9P3vuy1w-q_f60WkGC_D?usp=sharing);
 [GEC model checkpoints](https://drive.google.com/drive/folders/1TZNbuEwjifTVqKldfpkXl264CLkHNlXw?usp=sharing);
