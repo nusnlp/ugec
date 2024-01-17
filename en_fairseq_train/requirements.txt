@@ -1,0 +1,16 @@
+requests
+future
+nltk
+tensorboardX
+cython
+regex
+subword-nmt
+editdistance
+pyarrow
+transformers
+pylint
+hydra-core
+indobenchmark-toolkit
+spacy
+pytorch_lightning==1.6.0
+tokenizers

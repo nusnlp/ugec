@@ -1,0 +1,27 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 fairseq-train data-bin \
+    --save-dir stage2 \
+    --user-dir /home/project/11003628/hannan/ch_fairseq/chinese_bart_large/fairseq/src/src_syngec/syngec_model/ \
+    --restore-file pretrain.pt \
+    --task syntax-enhanced-translation \
+    --arch syntax_enhanced_bart_large \
+    --skip-invalid-size-inputs-valid-test \
+    --max-tokens 10000 \
+    --optimizer adam \
+    --max-source-positions 512 \
+    --max-target-positions 512 \
+    --lr 1e-5 \
+    --warmup-updates 0 \
+    -s src \
+    -t tgt \
+    --lr-scheduler polynomial_decay \
+    --clip-norm 0.1 \
+    --criterion label_smoothed_cross_entropy \
+    --label-smoothing 0.1 \
+    --max-epoch 10 \
+    --share-all-embeddings \
+    --adam-betas '(0.9,0.999)' \
+    --log-format tqdm \
+    --find-unused-parameters \
+    --fp16 \
+    --seed 42 --update-freq 2 --find-unused-parameters --label-smoothing 0.1 --total-num-update 100000000 --validate-interval-updates 50 --source-lang src --target-lang tgt --save-interval-updates 50 --keep-interval-updates 2 --reset-dataloader --reset-lr-scheduler --reset-optimizer
+
