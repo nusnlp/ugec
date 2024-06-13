@@ -1,6 +1,6 @@
 # Unsupervised Grammatical Error Correction Rivaling Supervised Methods
 
-> Hannan Cao, Liping Yuan, Yuchen Zhang, Hwee Tou Ng. Unsupervised Grammatical Error Correction Rivaling Supervised Methods. In EMNLP 2023. 
+> Hannan Cao, Liping Yuan, Yuchen Zhang, Hwee Tou Ng. Unsupervised Grammatical Error Correction Rivaling Supervised Methods. In [EMNLP 2023](https://aclanthology.org/2023.emnlp-main.185.pdf). 
 
 ## Training Data & Checkpoints
 [GEC training data](https://drive.google.com/drive/folders/1c1xNjD7ORGaY9P3vuy1w-q_f60WkGC_D?usp=sharing);
